@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Styling the header */
+header {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+}
+
+/* Styling the brand name */
+.brand-name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: auto; /* Pushes the menu and login buttons to the right */
+}
+
+/* Styling the navigation menu */
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Styling the login buttons */
+.login button {
+    background-color: rgb(20, 20, 20);
+    border: none;
+    padding: 8px 20px;
+    border-radius: 5px;
+    color: white;
+  
+}
+.left-content{
+    position: relative;
+    top: 100px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 60px;
+
+}
+.click{
+    background-color: black;
+    color: white;
+    border: 10px;
+    margin-top: 30px;
+    padding: 10px;
+}
+.right-content{
+    position: relative;
+    top: -280px;
+    display: flex;
+    flex-direction: column;
+    padding-right: 70px;
+
+
+}
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Optional: Set height for the container */
+
+}
+.image {
+    position: relative;
+    height: 100vh; /* Optional: Set height for the container */
+}
+
+img {
+    position: absolute;
+    top: 50px; 
+    justify-content: center;
+    top: -460px;
+   
+    
+}
+
+
+
+
+
